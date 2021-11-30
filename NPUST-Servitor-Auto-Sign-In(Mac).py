@@ -281,7 +281,7 @@ def fillIn(browser, weekCode, day):
                 
 layout = [[sg.DropDown(monthList, enable_events=True, key='MonthDropDown', size=(15,4), default_value = monthConversion), sg.DropDown(defualtDayList, enable_events=True, key='WeekDropDown', size=(15,4))],
           [[sg.Text(f'時間', pad=(18,10))] + [sg.Text(f'星期{item}', pad=(35,10)) for item in weekList]],
-          [[sg.Text(team, pad=(0,5)), sg.Checkbox(' ', key='Monday'+team, default=False, pad=(43,5)), sg.Checkbox(' ', key='Tuesday'+team, default=False, pad=(41,5)), sg.Checkbox(' ', key='Wednesday'+team, default=False, pad=(44,5)), sg.Checkbox(' ', key='Thursday'+team, default=False, pad=(42,5)), sg.Checkbox(' ', key='Friday'+team, default=False, pad=(42,5))] for team in timeList],
+          [[sg.Text(team, pad=(0,5)), sg.Checkbox(' ', key='Monday'+team, default=False, pad=(43,5)), sg.Checkbox(' ', key='Tuesday'+team, default=False, pad=(36,5)), sg.Checkbox(' ', key='Wednesday'+team, default=False, pad=(41,5)), sg.Checkbox(' ', key='Thursday'+team, default=False, pad=(38,5)), sg.Checkbox(' ', key='Friday'+team, default=False, pad=(40,5))] for team in timeList],
           [sg.Text(size=(40,1), key='-OUTPUT-')],
           [sg.Button('登入', size=(25,1)), sg.Button('登入檢查', size=(25,1)), sg.Button('開始自動填入', size=(25,1)), sg.Button('Exit', size=(10,1))],
           [sg.Text('任何問題歡迎到：https://git.io/NPUST-Servitor-Auto-Sign-In，回報',font = ("Arial, 15"))]]

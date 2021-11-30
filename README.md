@@ -3,9 +3,9 @@
 #### NPUST簽到自動化
 
 先決條件：
-*   Windows&nbsp;&nbsp;x64&nbsp;&nbsp;(64位元系統）&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;目前尚未開發32位元應用
-*   Mac OS&nbsp;&nbsp;x64&nbsp;&nbsp;(正在開發）&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;敬啟期待
-*   **`Chrome`** or **~~`Firefox`~~** or **~~`Edge`~~** 網頁瀏覽器&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;目前尚未開發 Firefox、Edge、Opera、IE、PhantomJS版本
+*   Windows&nbsp;&nbsp;x64&nbsp;&nbsp;(64位元系統）&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;目前尚未開發32位元應用
+*   Mac OS&nbsp;&nbsp;x64&nbsp;&nbsp;(正在開發）&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;敬啟期待(歡迎會編譯mac的developer提交)
+*   **`Chrome`** or **~~`Firefox`~~** or **~~`Edge`~~** 網頁瀏覽器&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;目前尚未開發 Firefox、Edge、Opera、IE、PhantomJS版本
 *   **`ChromeDriver`** or **~~`FirefoxDrive`~~** or **~~`EdgeDrive`~~**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **`FirefoxDrive`** &nbsp;&nbsp; **`EdgeDrive`** 版本正在開發
 
 ---
