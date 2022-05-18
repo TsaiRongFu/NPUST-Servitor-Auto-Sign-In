@@ -307,6 +307,7 @@ def main_window(window_theme):
             try:
                 browser = webdriver.Chrome("./chromedriver")
                 browser.get('https://www.npust.edu.tw/login.aspx?url=http://osas.npust.edu.tw/alltop/login.php')
+                sg.Popup('成功登入後，請直接點選"登入檢查"！！', title='System Message', keep_on_top=True)
             except:
                 sg.Popup('啟動網頁出現了問題！請確認是否有安裝正確的ChromeDrive！', title='System Message', keep_on_top=True)
 
@@ -320,6 +321,7 @@ def main_window(window_theme):
                 browser.find_element(By.ID , 'submenu10.3').click()
                 browser.switch_to.default_content()
                 browser.switch_to.frame("main")
+                sg.Popup('登入檢查成功！', title='System Message', keep_on_top=True)
             except:
                 sg.Popup('您似乎沒登入成功！詳情請看github教學！', title='System Message', keep_on_top=True)
 
@@ -419,9 +421,6 @@ def main():
             break
         if event == "open":
             main_window(values['-LIST-'][0])
-            # sg.theme(values['-LIST-'][0])
-            # sg.popup_get_text('This is {}'.format(values['-LIST-'][0]))
-
 
     window.close()
 
